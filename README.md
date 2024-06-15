@@ -1,3 +1,5 @@
+This project is also deployed and running on Render => ([https://online-grocery-app.onrender.com/](https://online-grocery-app.onrender.com/))
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
