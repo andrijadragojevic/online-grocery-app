@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: false,
     images: {
-        domains: ["localhost", "192.168.56.1"]
+        domains: ["localhost", "online-grocery-app-admin.onrender.com"]
     }
 };
 
