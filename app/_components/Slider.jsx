@@ -19,6 +19,10 @@ const Slider = ({ sliderList }) => {
                                 process.env.NEXT_PUBLIC_BACKEND_BASE_URL +
                                 slider.attributes.image.data[0].attributes.url
                             }
+                            url={
+                                process.env.NEXT_PUBLIC_BACKEND_BASE_URL +
+                                slider.attributes.image.data[0].attributes.url
+                            }
                             width={1000}
                             height={400}
                             alt="Slider"
