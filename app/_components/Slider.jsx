@@ -17,12 +17,13 @@ const Slider = ({ sliderList }) => {
                         <Image
                             src={
                                 process.env.NEXT_PUBLIC_BACKEND_BASE_URL +
-                                slider.attributes.image.data[0].attributes.url
+                                slider.attributes?.image?.data[0]?.attributes.url
                             }
                             url={
                                 process.env.NEXT_PUBLIC_BACKEND_BASE_URL +
-                                slider.attributes.image.data[0].attributes.url
+                                slider.attributes?.image.data?.attributes.url
                             }
+                            unoptimized={true}
                             width={1000}
                             height={400}
                             alt="Slider"
