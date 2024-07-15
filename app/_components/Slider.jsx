@@ -21,7 +21,7 @@ const Slider = ({ sliderList }) => {
                             }
                             url={
                                 process.env.NEXT_PUBLIC_BACKEND_BASE_URL +
-                                slider.attributes?.image.data?.attributes.url
+                                slider.attributes?.image.data[0]?.attributes.url
                             }
                             unoptimized={true}
                             width={1000}
